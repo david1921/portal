@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run clean && npm run build ",
+    "start": "npm run clean && npm run build && node src/app.js",
     "build": "webpack --config ./webpack.config.js --progress --colors",
     "clean": "rimraf build",
     "serve": "webpack-dev-server",
