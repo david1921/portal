@@ -22,6 +22,6 @@ describe('app' ,()=>{
    it('works, hopefully', () => {
       const componentInstance = TestUtils.renderIntoDocument(<App/>)
       const dom = ReactDOM.findDOMNode(componentInstance)
-      expect(dom.children.length).to.equal(1);
+      expect(dom.children.length).to.equal(0);
   });
 });
