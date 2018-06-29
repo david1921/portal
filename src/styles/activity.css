@@ -1,0 +1,40 @@
+:root {
+   /***Ihop***/
+ /* --primary-color: #43aeff;
+  --accent-color: #E04248;
+  --brand-header-background-color: #ffffff;
+  --brand-high-light-color: #77C1F9;
+  --side-bar-background: #158dcd;
+  --side-bar-image-high-light:#E91E63;
+   --side-bar-high-light: #00bcd4
+  */
+/*** Buffalo ***/
+  --primary-color: #2B2B2B;
+  --accent-color: #ffd200;
+  --brand-high-light-color: #77C1F9;
+  --brand-header-background-color: #ffffff;
+  --side-bar-background: #2B2B2B;
+  --side-bar-image-high-light:#ffffff;
+  --side-bar-high-light: #ffd200;
+}
+
+[data-reactroot] .container .table {
+   border-collapse:separate;
+   -moz-border-radius: 10px !important;
+  -webkit-border-radius:10px !important;
+  border-radius:10px !important;
+  color:#808080;
+
+}
+
+[data-reactroot] .container th{
+  text-align:center;
+}
+
+[data-reactroot] .container td{
+  text-align:center;
+}
+
+[data-reactroot] .container table h3{
+  color:var(--primary-color);
+  }

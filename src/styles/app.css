@@ -1,3 +1,227 @@
+html body{
+  background-color: #eee;
+ 
+}
+
+:root {
+  /***Ihop***/
+ /* --primary-color: #43aeff;
+  --accent-color: #E04248;
+  --brand-header-background-color: #ffffff;
+  --brand-high-light-color: #77C1F9;
+  --side-bar-background: #158dcd;
+  --side-bar-image-high-light:#E91E63;
+   --side-bar-high-light: #00bcd4
+  */
+ /*** Buffalo ***/
+  --primary-color: #2B2B2B;
+  --accent-color: #ffd200;
+  --brand-high-light-color: #77C1F9;
+  --brand-header-background-color: #ffffff;
+  --side-bar-background: #2B2B2B;
+  --side-bar-image-high-light:#ffffff;
+  --side-bar-high-light: #ffd200;
+}
+
+[data-reactroot] .container {width: 100%; }
+[data-reactroot] .container .navbar .navbar-default {
+  background-color: var(--brand-header-background-color);
+}
+.title {
+  color: var(--primary-color);
+}
+[data-reactroot] .container .col-md-2{
+  padding-left: 0px;
+}
+[data-reactroot] .container img.style-svg {
+  width:20px;height:20px;
+}
+[data-reactroot] .container img.style-logo-svg {
+  width:150%;height:150%;
+}
+
+[data-reactroot] .container .panel-heading {
+  background-color: var(--primary-color);
+  color:#ffffff;
+  font-weight: bold;
+}
+
+[data-reactroot] .container button.list-group-item {
+  color:#808080;
+}
+[data-reactroot] .container .list-group-item.active,[data-reactroot] .container button.list-group-item:hover{
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  font-weight:bold;
+}
+
+.nav-tabs > li > a {
+  color:var(--primary-color);
+  }
+
+ div.panelClass.panel-body {
+    color: #ffffff;
+    background-color: var(--primary-color);
+}  
+a.list-group-item, button.list-group-item {
+    color: #555;
+}
+
+div.zero-left {
+   padding-left:20;
+}
+ul li{
+  padding:15px;
+  list-style-type:none;
+}
 .header {
 	color:blue;
+}
+.miniDashBoard{
+  float:left;
+}
+a{
+  color:white;
+}
+.line{
+   border-bottom: 1px solid #dedede;
+   width:100%;
+   margin-top:15px;
+}
+/*.panel-heading{
+  text-align: center;
+}*/
+
+.textlabel{
+  position:relative;
+top: 130px;
+left:70px;
+font-size:30px;
+}
+.text-align-left{
+  float:left;
+  display: inline;
+  color:#808080;
+}
+.text-align-right{
+  float:right;
+  display: inline;
+  color:var(--primary-color);
+}
+.panel-title {
+  text-align:center;
+}
+.well {
+  text-align: center;
+}
+.reputation-score-text{
+text-align: center;
+  color: #666;
+}
+
+.panelClass{
+  color:#808080;
+  background-color: #eee;
+}
+.div-margin-bottom{
+  margin-bottom: 40px;
+}
+span.sticker {
+  background: #DB9C00;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
+}
+.badge {
+  display: inline-block;
+}
+.green-circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #86E86D;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+
+.blue-circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #5BB2EC;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+
+.orange-circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #FD9E12;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    margin:0 auto;
+}
+.red-circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #FF5D4D;
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+.big-orange-circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 45px;
+    background: #fff;
+    border: 2px solid #FD9E12;
+    color: #666;
+    text-align: center;
+    font: 38px Arial, sans-serif;
+    margin:0 auto;
+}
+
+.medium-orange-circle{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    padding: 36px;
+    background: #fff;
+    border: 2px solid #FD9E12;
+    color: #666;
+    text-align: center;
+    font: 30px Arial, sans-serif;
+    margin:0 auto;
+}
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #FD9E12;
+    color: #666;
+    text-align: center;
+    font: 64px Arial, sans-serif;
 }

@@ -1,0 +1,28 @@
+
+:root {
+   /***Ihop***/
+ /* --primary-color: #43aeff;
+  --accent-color: #E04248;
+  --brand-header-background-color: #ffffff;
+  --brand-high-light-color: #77C1F9;
+  --side-bar-background: #158dcd;
+  --side-bar-image-high-light:#E91E63;
+   --side-bar-high-light: #00bcd4
+  */
+/*** Buffalo ***/
+  --primary-color: #2B2B2B;
+  --accent-color: #ffd200;
+  --brand-high-light-color: #77C1F9;
+  --brand-header-background-color: #ffffff;
+  --side-bar-background: #2B2B2B;
+  --side-bar-image-high-light:#ffffff;
+  --side-bar-high-light: #ffd200;
+}
+.well-lg {
+  margin-top:20px;
+}
+
+
+[data-reactroot] .container .list-group-item.active{
+  border-color:var(--primary-color);
+}

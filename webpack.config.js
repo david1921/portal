@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-var nodeExternals = require('webpack-node-externals');
+//var nodeExternals = require('webpack-node-externals');
 
 const VENDOR_LIBS = ['react-dom','react'];
 module.exports = {
@@ -13,7 +13,7 @@ module.exports = {
   output: {
   	path: path.join(__dirname, 'build'),
     filename: '[name].[chunkhash].js'
-    //publicPath: '/build/'
+    //publicPath: '/'
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
@@ -40,7 +40,7 @@ module.exports = {
    
        },
     {
-      test: /\.(png|jpg)$/,
+      test: /\.(png|jpg|woff|woff2|eot|ttf|svg)$/,
       loaders: ['file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
        {
           loader: 'image-webpack-loader',
@@ -58,6 +58,9 @@ module.exports = {
         }]
     }
     ]
+  },
+   devServer: {
+    historyApiFallback: true
   },
   plugins: [
         new ExtractTextPlugin({filename: 'styles/style.css', 
