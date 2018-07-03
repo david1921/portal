@@ -1,7 +1,7 @@
 import React from 'react'
 import {PieChart} from 'react-easy-chart';
 import { Row, Col, Panel,Label} from 'react-bootstrap'
-require ('../styles/MiniDashBoard.css')
+//import '../styles/MiniDashBoard.css'
 require('../styles/app.css');
 
 const MiniDashBoard = ({score, positiveReviewCount, negativeReviewCount,currentMonthReviewCount}) => (
