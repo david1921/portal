@@ -1,5 +1,6 @@
 import 'node-fetch';
-  const BASE_HOST = "http://localhost:8080"
+ // const BASE_HOST = "http://localhost:8080"
+  const BASE_HOST = "https://seaty.herokuapp.com"
 
   export default{ 
     post: (url, data) => {
